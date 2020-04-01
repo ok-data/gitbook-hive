@@ -1,0 +1,29 @@
+{
+    "plugins": [
+        "ga",
+        "sitemap",
+        "expandable-chapters-small",
+        "back-to-top-button",
+        "anchor-navigation-ex",
+        "search-pro"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-158679578-1"
+        },
+        "sitemap": {
+            "hostname": "https://ok-data.github.io/gitbook-zeppelin"
+        },
+        "anchor-navigation-ex" : {
+            "showLevel" : false,
+            "showGoTop" : false,
+            "float" :{
+                "floatIcon" : "fa fa-anchor",
+                "showLevelIcon" : "true",
+                "level1Icon" : "fa fa-angle-right",
+                "level2Icon": "fa fa-angle-right",
+                "level3Icon": "fa fa-angle-right"
+            }
+        }
+    }
+}
