@@ -59,11 +59,15 @@ COLLECTION ITEMS TERMINATED BY ','
 MAP KEYS TERMINATED BY ':'
 STORED AS TEXTFILE;
 ```
+
 ```SQL
 -- 데이터 쓰기
+-- LOAD DATA LOCAL INAPTH 는 로컬 경로
 LOAD DATA INPATH 'employee.txt'
 OVERWRITE INTO TABLE employee_internal;
 ```
+
+> 데이터를 옮기고 나면 원본파일이 삭제되므로 참고!!
 
 ```SQL
 -- 외부 테이블 생성

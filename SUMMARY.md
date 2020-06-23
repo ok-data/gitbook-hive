@@ -1,7 +1,7 @@
 # Summary
 
 * [Hive](README.md)
-    * [설치](Installation.md)
+    * [??](Installation.md)
     * [Hive CLI/Beeline](CLI_Beeline.md)
     * [Data Types](Data_Types.md)
     * [DDL](HiveQL_DDL.md)

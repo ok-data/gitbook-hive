@@ -1,4 +1,4 @@
-# Table ??
+# Hive Table
 
 - [CREATE]({{site.baseurl}}/HiveQL_DDL_table_create.html)
 

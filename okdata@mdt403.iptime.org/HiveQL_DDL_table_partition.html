@@ -1,0 +1,639 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>PARTITION · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="HiveQL_DDL_table_bucket.html" />
+    
+    
+    <link rel="prev" href="HiveQL_DDL_table_alter.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Hive
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="Installation.html">
+            
+                <a href="Installation.html">
+            
+                    
+                    설치
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="CLI_Beeline.md">
+            
+                <span>
+            
+                    
+                    Hive CLI/Beeline
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="Data_Types.html">
+            
+                <a href="Data_Types.html">
+            
+                    
+                    Data Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="HiveQL_DDL.html">
+            
+                <a href="HiveQL_DDL.html">
+            
+                    
+                    DDL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.1" data-path="HiveQL_DDL_Database.html">
+            
+                <a href="HiveQL_DDL_Database.html">
+            
+                    
+                    Database
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2" data-path="HiveQL_DDL_table.html">
+            
+                <a href="HiveQL_DDL_table.html">
+            
+                    
+                    Table
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.2.1" data-path="HiveQL_DDL_table_create.html">
+            
+                <a href="HiveQL_DDL_table_create.html">
+            
+                    
+                    CREATE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2.2" data-path="HiveQL_DDL_table_drop.html">
+            
+                <a href="HiveQL_DDL_table_drop.html">
+            
+                    
+                    DROP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2.3" data-path="HiveQL_DDL_table_truncate.html">
+            
+                <a href="HiveQL_DDL_table_truncate.html">
+            
+                    
+                    TRUNCATE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2.4" data-path="HiveQL_DDL_table_alter.html">
+            
+                <a href="HiveQL_DDL_table_alter.html">
+            
+                    
+                    ALTER
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.1.4.2.5" data-path="HiveQL_DDL_table_partition.html">
+            
+                <a href="HiveQL_DDL_table_partition.html">
+            
+                    
+                    PARTITION
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2.6" data-path="HiveQL_DDL_table_bucket.html">
+            
+                <a href="HiveQL_DDL_table_bucket.html">
+            
+                    
+                    BUCKET
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2.7" data-path="HiveQL_DDL_table_view.html">
+            
+                <a href="HiveQL_DDL_table_view.html">
+            
+                    
+                    VIEW
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="HiveQL_DML.html">
+            
+                <a href="HiveQL_DML.html">
+            
+                    
+                    DML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.5.1" data-path="HiveQL_DML_select.html">
+            
+                <a href="HiveQL_DML_select.html">
+            
+                    
+                    SELECT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.2" >
+            
+                <span>
+            
+                    
+                    LOAD
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.3" >
+            
+                <span>
+            
+                    
+                    [INSERT]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.4" >
+            
+                <span>
+            
+                    
+                    [UPDATE]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.5" >
+            
+                <span>
+            
+                    
+                    [DELETE]
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >PARTITION</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon fa fa-angle-right"></span><a href="#&#xD30C;&#xD2F0;&#xC158;-partition"><b></b>&#xD30C;&#xD2F0;&#xC158;, Partition</a></li><ul><li><span class="title-icon fa fa-angle-right"></span><a href="#&#xD30C;&#xD2F0;&#xC158;-&#xC0DD;&#xC131;"><b></b>&#xD30C;&#xD2F0;&#xC158; &#xC0DD;&#xC131;</a></li><li><span class="title-icon fa fa-angle-right"></span><a href="#&#xACE0;&#xC815;-&#xD30C;&#xD2F0;&#xC158;"><b></b>&#xACE0;&#xC815; &#xD30C;&#xD2F0;&#xC158;</a></li><li><span class="title-icon fa fa-angle-right"></span><a href="#&#xB3D9;&#xC801;-&#xD30C;&#xD2F0;&#xC158;"><b></b>&#xB3D9;&#xC801; &#xD30C;&#xD2F0;&#xC158;</a></li><li><span class="title-icon fa fa-angle-right"></span><a href="#&#xD30C;&#xD2F0;&#xC158;-&#xC218;&#xC815;&#xC0AD;&#xC81C;"><b></b>&#xD30C;&#xD2F0;&#xC158; &#xC218;&#xC815;/&#xC0AD;&#xC81C;</a></li></ul></ul></div><h1 id="&#xD30C;&#xD2F0;&#xC158;-partition"><a name="&#xD30C;&#xD2F0;&#xC158;-partition" class="anchor-navigation-ex-anchor" href="#&#xD30C;&#xD2F0;&#xC158;-partition"><i class="fa fa-link" aria-hidden="true"></i></a>&#xD30C;&#xD2F0;&#xC158;, Partition</h1>
+<p>&#xD558;&#xC774;&#xBE0C;&#xB294; &#xD30C;&#xC77C; &#xAE30;&#xBC18; &#xD14C;&#xC774;&#xBE14;&#xB85C; &#xD14C;&#xC774;&#xBE14;&#xC758; &#xBAA8;&#xB4E0; row &#xC815;&#xBCF4;&#xB97C; &#xC77D;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xB370;&#xC774;&#xD130;&#xAC00; &#xB9CE;&#xC740; &#xD14C;&#xC774;&#xBE14;&#xC744; &#xCFFC;&#xB9AC;&#xB97C; &#xB3CC;&#xB9AC;&#xBA74; &#xC131;&#xB2A5;&#xC800;&#xD558;&#xAC00; &#xBC1C;&#xC0DD;&#xD55C;&#xB2E4;. </p>
+<p>&#xD558;&#xC774;&#xBE0C; &#xD30C;&#xD2F0;&#xC158;&#xC740; RDBMS&#xC758; &#xD30C;&#xD2F0;&#xC158;&#xACFC; &#xB9E4;&#xC6B0; &#xC720;&#xC0AC;&#xD558;&#xBA70;, &#xAC01; &#xD30C;&#xD2F0;&#xC158;&#xC740; &#xBBF8;&#xB9AC; &#xC815;&#xC758;&#xB41C; &#xD30C;&#xD2F0;&#xC158; &#xCE7C;&#xB7FC;&#xC5D0; &#xD574;&#xB2F9;&#xB418;&#xACE0; HDFS &#xD14C;&#xC774;&#xBE14;&#xC758; &#xB514;&#xB809;&#xD1A0;&#xB9AC;&#xC758; &#xD558;&#xC704; &#xB514;&#xB809;&#xD1A0;&#xB9AC;&#xB85C; &#xB098;&#xB220;&#xC11C; &#xC800;&#xC7A5;&#xD55C;&#xB2E4;. &#xD14C;&#xC774;&#xBE14;&#xC774; &#xCFFC;&#xB9AC;&#xB97C; &#xBC1B;&#xC73C;&#xBA74;, &#xD14C;&#xC774;&#xBE14; &#xB370;&#xC774;&#xD130; &#xC911; &#xD544;&#xC694;&#xD55C; &#xD30C;&#xD2F0;&#xC158;(&#xB514;&#xB809;&#xD1A0;&#xB9AC;)&#xB9CC; &#xCFFC;&#xB9AC;&#xB418;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; I/O&#xAC00; &#xB9CE;&#xC774; &#xC904; &#xC218; &#xC788;&#xB2E4;.</p>
+<h2 id="&#xD30C;&#xD2F0;&#xC158;-&#xC0DD;&#xC131;"><a name="&#xD30C;&#xD2F0;&#xC158;-&#xC0DD;&#xC131;" class="anchor-navigation-ex-anchor" href="#&#xD30C;&#xD2F0;&#xC158;-&#xC0DD;&#xC131;"><i class="fa fa-link" aria-hidden="true"></i></a>&#xD30C;&#xD2F0;&#xC158; &#xC0DD;&#xC131;</h2>
+<pre><code class="lang-SQL"><span class="hljs-comment">--&#xC608;&#xC2DC;</span>
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> employee_partitioned
+(
+    <span class="hljs-keyword">name</span> <span class="hljs-keyword">string</span>,
+    work_place <span class="hljs-built_in">ARRAY</span>&lt;<span class="hljs-keyword">string</span>&gt;,
+    sex_age <span class="hljs-keyword">STRUCT</span>&lt;sex:<span class="hljs-keyword">string</span>, age:<span class="hljs-built_in">int</span>&gt;,
+    skills_score <span class="hljs-keyword">MAP</span>&lt;<span class="hljs-keyword">string</span>, <span class="hljs-built_in">int</span>&gt;,
+    depart_title <span class="hljs-keyword">MAP</span>&lt;<span class="hljs-keyword">string</span>, <span class="hljs-built_in">ARRAY</span>&lt;<span class="hljs-keyword">string</span>&gt;&gt;
+)
+PARTITIONED <span class="hljs-keyword">BY</span> (<span class="hljs-keyword">Year</span> <span class="hljs-built_in">INT</span>, <span class="hljs-keyword">Month</span> <span class="hljs-built_in">INT</span>) <span class="hljs-comment">-- &#xD30C;&#xD2F0;&#xC158; &#xC815;&#xC758;</span>
+OW <span class="hljs-keyword">FORMAT</span> <span class="hljs-keyword">DELIMITED</span>
+<span class="hljs-keyword">FIELDS</span> <span class="hljs-keyword">TERMINATED</span> <span class="hljs-keyword">BY</span> <span class="hljs-string">&apos;|&apos;</span>
+COLLECTION ITEMS <span class="hljs-keyword">TERMINATED</span> <span class="hljs-keyword">BY</span> <span class="hljs-string">&apos;,&apos;</span>
+<span class="hljs-keyword">MAP</span> <span class="hljs-keyword">KEYS</span> <span class="hljs-keyword">TERMINATED</span> <span class="hljs-keyword">BY</span> <span class="hljs-string">&apos;:&apos;</span>
+</code></pre>
+<pre><code class="lang-SQL"><span class="hljs-comment">--&#xD30C;&#xD2F0;&#xC158; &#xD655;&#xC778;</span>
+<span class="hljs-keyword">SHOW</span> <span class="hljs-keyword">PARTITIONS</span> employee_partitioned;
+</code></pre>
+<pre><code>|partition|
+|---------|
+</code></pre><pre><code class="lang-SQL"><span class="hljs-comment">-- &#xB2E4;&#xC911; &#xD30C;&#xD2F0;&#xC158; &#xCD94;&#xAC00;</span>
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> employee_partitioned <span class="hljs-keyword">ADD</span>
+<span class="hljs-keyword">PARTITION</span> (<span class="hljs-keyword">year</span>=<span class="hljs-number">2019</span>, <span class="hljs-keyword">month</span>=<span class="hljs-number">11</span>)
+<span class="hljs-keyword">PARTITION</span> (<span class="hljs-keyword">year</span>=<span class="hljs-number">2019</span>, <span class="hljs-keyword">month</span>=<span class="hljs-number">12</span>);
+</code></pre>
+<pre><code class="lang-SQL"><span class="hljs-comment">--&#xD30C;&#xD2F0;&#xC158; &#xD655;&#xC778;</span>
+<span class="hljs-keyword">SHOW</span> <span class="hljs-keyword">PARTITIONS</span> employee_partitioned;
+</code></pre>
+<pre><code>|partition         |
+|------------------|
+|year=2019/month=11|
+|year=2019/month=12|
+</code></pre><p>&#xD30C;&#xD2F0;&#xC158; &#xD14C;&#xC774;&#xBE14;&#xC5D0; &#xB370;&#xC774;&#xD130; &#xC801;&#xC7AC; :</p>
+<pre><code class="lang-SQL"><span class="hljs-keyword">LOAD</span> <span class="hljs-keyword">DATA</span> INPATH <span class="hljs-string">&apos;employee.txt&apos;</span>
+OVERWRITE <span class="hljs-keyword">INTO</span> <span class="hljs-keyword">TABLE</span> employee_partitioned
+<span class="hljs-keyword">PARTITION</span> (<span class="hljs-keyword">year</span>=<span class="hljs-number">2019</span>, <span class="hljs-keyword">month</span>=<span class="hljs-number">12</span>);
+</code></pre>
+<p>HDFS&#xC758; &#xB370;&#xC774;&#xD130;&#xC800;&#xC7A5;&#xC18C;&#xB97C; &#xC5F4;&#xC5B4;&#xBCF4;&#xBA74; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xB514;&#xB809;&#xD1A0;&#xB9AC;&#xAC00; &#xC0DD;&#xC131;&#xB41C;&#xB2E4;.</p>
+<pre><code class="lang-bash">warehouse/employee_partitioned/year=2019/month=12/employee.txt
+</code></pre>
+<p>select &#xD574;&#xBCF4;&#xBA74; year, month &#xCE7C;&#xB7FC;&#xC774; &#xCD94;&#xAC00;&#xB41C;&#xB2E4;.</p>
+<pre><code class="lang-SQL"><span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">name</span>, <span class="hljs-keyword">year</span>, <span class="hljs-keyword">month</span> <span class="hljs-keyword">FROM</span> employee_partitioned;
+</code></pre>
+<pre><code>|name   |year|month|
+|-------|----|-----|
+|Michael|2019|   12|
+|Will   |2019|   12|
+|Shelley|2019|   12|
+|Lucy   |2019|   12|
+</code></pre><h2 id="&#xACE0;&#xC815;-&#xD30C;&#xD2F0;&#xC158;"><a name="&#xACE0;&#xC815;-&#xD30C;&#xD2F0;&#xC158;" class="anchor-navigation-ex-anchor" href="#&#xACE0;&#xC815;-&#xD30C;&#xD2F0;&#xC158;"><i class="fa fa-link" aria-hidden="true"></i></a>&#xACE0;&#xC815; &#xD30C;&#xD2F0;&#xC158;</h2>
+<p>&#xACE0;&#xC815; &#xD30C;&#xD2F0;&#xC158;&#xC744; &#xC774;&#xC6A9;&#xD55C; &#xB370;&#xC774;&#xD130; &#xC785;&#xB825;&#xC740; INSERT&#xBB38;&#xC5D0; &#xD30C;&#xD2F0;&#xC158; &#xC815;&#xBCF4;&#xB97C; &#xACE0;&#xC815;&#xB41C; &#xAC12;&#xC73C;&#xB85C; &#xC804;&#xB2EC;&#xD558;&#xC5EC; &#xC785;&#xB825;&#xD55C;&#xB2E4;.</p>
+<p>&#xB2E4;&#xC74C;&#xC740; yymmdd &#xD30C;&#xD2F0;&#xC158;&#xC5D0; &apos;20190510&apos; &#xAC12;&#xC744; &#xC9C1;&#xC811;&#xC801;&#xC73C;&#xB85C; &#xC804;&#xB2EC;&#xD558;&#xC5EC; &#xD30C;&#xD2F0;&#xC158;&#xC744; &#xC0DD;&#xC131;&#xD558;&#xB294; &#xC608;&#xC81C;&#xC774;&#xB2E4;.</p>
+<pre><code class="lang-SQL"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> <span class="hljs-keyword">TABLE</span> tbl(yymmdd=<span class="hljs-string">&apos;201910510&apos;</span>)
+<span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">name</span> <span class="hljs-keyword">FROM</span> temp;
+</code></pre>
+<p>&#xBA85;&#xB839;&#xC744; &#xC218;&#xD589;&#xD558;&#xBA74; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC740; &#xD3F4;&#xB354; &#xAD6C;&#xC870;&#xB85C; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC0DD;&#xC131;&#xD55C;&#xB2E4;.</p>
+<pre><code class="lang-bash">hdfs://[tbl &#xD14C;&#xC774;&#xBE14; &#xB85C;&#xCF00;&#xC774;&#xC158;]/yymmdd=20180510/
+</code></pre>
+<h2 id="&#xB3D9;&#xC801;-&#xD30C;&#xD2F0;&#xC158;"><a name="&#xB3D9;&#xC801;-&#xD30C;&#xD2F0;&#xC158;" class="anchor-navigation-ex-anchor" href="#&#xB3D9;&#xC801;-&#xD30C;&#xD2F0;&#xC158;"><i class="fa fa-link" aria-hidden="true"></i></a>&#xB3D9;&#xC801; &#xD30C;&#xD2F0;&#xC158;</h2>
+<p>&#xB3D9;&#xC801; &#xD30C;&#xD2F0;&#xC158;&#xC744; &#xC774;&#xC6A9;&#xD55C; &#xB370;&#xC774;&#xD130; &#xC785;&#xB825;&#xC740; INSERT&#xBB38;&#xC5D0; &#xD30C;&#xD2F0;&#xC158; &#xC815;&#xBCF4;&#xB97C; &#xC870;&#xD68C;&#xD558;&#xB294; &#xCE7C;&#xB7FC;&#xC744; &#xC804;&#xB2EC;&#xD558;&#xC5EC; &#xC785;&#xB825;&#xD55C;&#xB2E4;.</p>
+<p>&#xB2E4;&#xC74C;&#xC740; yymmdd &#xD30C;&#xD2F0;&#xC158;&#xC5D0; yymmdd &#xCE7C;&#xB7FC;&#xC744; &#xC804;&#xB2EC;&#xD558;&#xC5EC; &#xD30C;&#xD2F0;&#xC158;&#xC744; &#xB3D9;&#xC801;&#xC73C;&#xB85C; &#xC0DD;&#xC131;&#xD558;&#xB294; &#xC608;&#xC81C;&#xC774;&#xB2E4;.</p>
+<pre><code class="lang-SQL"><span class="hljs-keyword">INSERT</span> <span class="hljs-keyword">INTO</span> <span class="hljs-keyword">TABLE</span> tbl(yymmdd)
+<span class="hljs-keyword">SELECT</span> <span class="hljs-keyword">name</span>, yymmdd <span class="hljs-keyword">FROM</span> temp;
+</code></pre>
+<p>&#xC704;&#xC640; &#xAC19;&#xC774; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC785;&#xB825;&#xD560; &#xB54C; temp &#xD14C;&#xC774;&#xBE14;&#xC758; yymmdd &#xCE7C;&#xB7FC;&#xC5D0; 20180510,20180511 &#xB450;&#xAC1C;&#xC758; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC788;&#xC73C;&#xBA74; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xC0DD;&#xC131;&#xB41C;&#xB2E4;.</p>
+<pre><code class="lang-bash">hdfs://[tbl &#xD14C;&#xC774;&#xBE14; &#xB85C;&#xCF00;&#xC774;&#xC158;]/yymmdd=20180510/
+hdfs://[tbl &#xD14C;&#xC774;&#xBE14; &#xB85C;&#xCF00;&#xC774;&#xC158;]/yymmdd=20180511/
+</code></pre>
+<h2 id="&#xD30C;&#xD2F0;&#xC158;-&#xC218;&#xC815;&#xC0AD;&#xC81C;"><a name="&#xD30C;&#xD2F0;&#xC158;-&#xC218;&#xC815;&#xC0AD;&#xC81C;" class="anchor-navigation-ex-anchor" href="#&#xD30C;&#xD2F0;&#xC158;-&#xC218;&#xC815;&#xC0AD;&#xC81C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#xD30C;&#xD2F0;&#xC158; &#xC218;&#xC815;/&#xC0AD;&#xC81C;</h2>
+<p><code>ALTER TABLE ADD PARTITION</code> &#xC73C;&#xB85C; &#xAE30;&#xC874; &#xD14C;&#xC774;&#xBE14;&#xC5D0; &#xD30C;&#xD2F0;&#xC158;&#xC791;&#xC5C5;&#xC744; &#xC218;&#xD589;&#xD560; &#xC218; &#xC788;&#xB2E4;.</p>
+<p>&#xD30C;&#xC77C; &#xD3EC;&#xB9F7;, &#xC704;&#xCE58;, &#xBCF4;&#xD638;, &#xC811;&#xD569;&#xC5D0; &#xB300;&#xD55C; ALTER TABLE/PARTITION &#xBB38;&#xC740; ALTER TABLE &#xACFC; &#xB3D9;&#xC77C;&#xD55C; &#xBB38;&#xBC95;&#xC744; &#xAC00;&#xC9C4;&#xB2E4;.</p>
+<pre><code class="lang-SQL"><span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> table_name <span class="hljs-keyword">PARTITION</span> partition_spec <span class="hljs-keyword">SET</span> FILEFORMAT file_format;
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> table_name <span class="hljs-keyword">PARTITION</span> partition_spec <span class="hljs-keyword">SET</span> LOCATION <span class="hljs-string">&apos;full URI&apos;</span>;
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> table_name <span class="hljs-keyword">PARTITION</span> partition_spec <span class="hljs-keyword">ENABLE</span>/<span class="hljs-keyword">DISABLE</span> NO_DROP;
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> table_name <span class="hljs-keyword">PARTITION</span> partition_spec CONCATENATE;
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="HiveQL_DDL_table_alter.html" class="navigation navigation-prev " aria-label="Previous page: ALTER">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="HiveQL_DDL_table_bucket.html" class="navigation navigation-next " aria-label="Next page: BUCKET">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"PARTITION","level":"1.1.4.2.5","depth":4,"next":{"title":"BUCKET","level":"1.1.4.2.6","depth":4,"path":"HiveQL_DDL_table_bucket.md","ref":"HiveQL_DDL_table_bucket.md","articles":[]},"previous":{"title":"ALTER","level":"1.1.4.2.4","depth":4,"path":"HiveQL_DDL_table_alter.md","ref":"HiveQL_DDL_table_alter.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga","sitemap","expandable-chapters-small","back-to-top-button","anchor-navigation-ex","search-pro","livereload"],"pluginsConfig":{"livereload":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-anchor","level1Icon":"fa fa-angle-right","level2Icon":"fa fa-angle-right","level3Icon":"fa fa-angle-right","showLevelIcon":"true"},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":false,"showLevel":false},"sitemap":{"hostname":"https://ok-data.github.io/gitbook-zeppelin"},"back-to-top-button":{},"expandable-chapters-small":{},"ga":{"configuration":"auto","token":"UA-158679578-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"HiveQL_DDL_table_partition.md","mtime":"2020-05-14T06:33:45.232Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-14T06:34:22.948Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
