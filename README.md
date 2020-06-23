@@ -1,7 +1,5 @@
 # Hive
 
-`test`
-
 `Hive` 는 Hadoop의 데이터를 다루는 SQL 질의의 표준이다. HDFS의 데이터를 SQL로 접근할 수 있는 방법을 제공한다.
 
 Hive Query Language, 즉 HQL을 사용하여 RDBMS의 표준 SQL과 비슷한 의미와 함수를 가지며, RDBMS 경험자라면 손쉽게 사용할 수 있다.
